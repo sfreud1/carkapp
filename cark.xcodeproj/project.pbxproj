@@ -57,16 +57,6 @@
 			path = cark;
 			sourceTree = "<group>";
 		};
-		57CD49CB2DFF77EA00BE1318 /* carkTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = carkTests;
-			sourceTree = "<group>";
-		};
-		57CD49D52DFF77EA00BE1318 /* carkUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = carkUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				57CD49BD2DFF77E900BE1318 /* cark */,
-				57CD49CB2DFF77EA00BE1318 /* carkTests */,
-				57CD49D52DFF77EA00BE1318 /* carkUITests */,
 				57CD49BC2DFF77E900BE1318 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -164,9 +152,6 @@
 			dependencies = (
 				57CD49CA2DFF77EA00BE1318 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				57CD49CB2DFF77EA00BE1318 /* carkTests */,
-			);
 			name = carkTests;
 			packageProductDependencies = (
 			);
@@ -186,9 +171,6 @@
 			);
 			dependencies = (
 				57CD49D42DFF77EA00BE1318 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				57CD49D52DFF77EA00BE1318 /* carkUITests */,
 			);
 			name = carkUITests;
 			packageProductDependencies = (
